@@ -30,7 +30,7 @@ $(document).ready(function(){
   }
   // Ability to clear entire list
   $('#all').on('click',function(){
-    $('ul').empty();
+    $('li').empty();
     count = $('ul li').length
     toDoCount()
   });
